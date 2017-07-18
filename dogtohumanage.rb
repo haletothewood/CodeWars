@@ -22,5 +22,6 @@ The long version would be:
 	end
 	puts arr
 end
+=end
 
 dog_to_human_age([2, 4, 7, 11, 1, 9])
