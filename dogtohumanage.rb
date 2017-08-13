@@ -7,7 +7,7 @@ of us humans.
 =end
 
 def dog_to_human_age(age)
-	age.map {|a| a <= 2 ? a*10.5 : a*7}
+	puts age.map {|a| a <= 2 ? a*10.5 : a*7}
 end
 
 =begin
