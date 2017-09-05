@@ -28,6 +28,6 @@ def arrCheck2(value)
   value.all? {|n| n.is_a?(Array)} #.all? returns true if all elements apply
 end
 
-arrCheck([[1,2,3], [4,5,6]])
-arrCheck2(["Hello", ["Hello", "You"]])
+puts arrCheck([[1,2,3], [4,5,6]])
+puts arrCheck2(["Hello", ["Hello", "You"]])
 
