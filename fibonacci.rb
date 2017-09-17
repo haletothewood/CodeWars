@@ -1,5 +1,15 @@
+=begin
+Give the summation of all even numbers in a Fibonacci
+sequence up to, but not including, the maximum value.
+
+The Fibonacci sequence is a series of numbers where t
+he next value is the addition of the previous two values.
+The series starts with 0 and 1:
+
+0 1 1 2 3 5 8 13 21...
+=end
+
 def even_fib(m)
-  p m
   arr = [0,1]
   while arr[-1] < m
     arr << arr[-1] + arr[-2]
